@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgTonystark"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/add"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imgTonystark"
+                android:text="ADD TO CART"
+                android:textColor="#ba160c"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtEMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="adds item to your cart"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgTonystark"
+                android:layout_below="@id/txtName"
+                android:textColor="#ba160c"
+                android:layout_marginTop="15dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgCaptain"
+                android:src="@drawable/delete"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imgCaptain"
+                android:text="DELETE ITEM"
+                android:textColor="#ba160c"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtEMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="deletes item(s) in your cart"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgCaptain"
+                android:layout_below="@id/txtName"
+                android:textColor="#ba160c"
+                android:layout_marginTop="15dp"/>
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgBlackp"
+                android:src="@drawable/view"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imgBlackp"
+                android:text="VIEW PRODUCTS"
+                android:textColor="#ba160c"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtEMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="products in your cart"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgBlackp"
+                android:layout_below="@id/txtName"
+                android:textColor="#ba160c"
+                android:layout_marginTop="15dp"/>
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgHulk"
+                android:src="@drawable/rupee"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imgHulk"
+                android:text="VIEW INVENTORY"
+                android:textColor="#ba160c"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtEMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="product details with price"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgHulk"
+                android:layout_below="@id/txtName"
+                android:textColor="#ba160c"
+                android:layout_marginTop="15dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

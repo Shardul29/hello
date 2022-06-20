@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgTonystark"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/tony_stark"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/imgTonystark"
+        android:text="Tony Bhai"
+        android:textColor="#ba160c"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtEMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tonybhai@fauladkiaulad@loha.com"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/imgTonystark"
+        android:layout_below="@id/txtName"
+        android:textColor="#ba160c"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/txtPhn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9554789512"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/imgTonystark"
+        android:layout_below="@id/txtEMail"
+        android:textColor="#ba160c"
+        android:layout_margin="15dp"/>
+    <Button
+        android:id="@+id/btnMoreInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="More Information"
+         android:background="#ba160c"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_below="@id/imgTonystark"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit the App"
+        android:background="#ff1744"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignBottom="@id/btnMoreInfo"/>
+</RelativeLayout>
